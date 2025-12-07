@@ -1,0 +1,143 @@
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 10px 30px rgba(11, 87, 164, 0.04);
+}
+.card.light {
+  background: #fbfbfb;
+}
+.card.small {
+  padding: 10px;
+}
+.center-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.card-sm {
+  width: 420px;
+  background: white;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 12px 30px rgba(11, 87, 164, 0.06);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--soft);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-title {
+  font-weight: 800;
+  color: var(--primary);
+  font-size: 18px;
+}
+.brand-sub {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+.route-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+}
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+}
+.chips {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.chip {
+  background: var(--soft);
+  color: var(--primary);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.schedule {
+  color: var(--primary);
+  font-size: 13px;
+}
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn.primary {
+  background: var(--primary);
+  color: white;
+}
+.btn.light {
+  background: #eef6ff;
+  color: var(--primary);
+}
+.btn.small {
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+}
+.modal {
+  width: 420px;
+  max-width: 95%;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+}
+.field {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.field select,
+.field input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e7f0ff;
+}
+
+.note {
+  margin-top: 8px;
+  color: var(--primary);
+  font-weight: 700;
+}
