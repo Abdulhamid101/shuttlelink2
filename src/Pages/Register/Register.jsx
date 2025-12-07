@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { saveUser, findUserByEmail } from "../../storage.js";
-import "../../styles/forms.css";
+import "../../Styles/forms.css";
 
 export default function Register({ onRegister }) {
   const [name, setName] = useState("");

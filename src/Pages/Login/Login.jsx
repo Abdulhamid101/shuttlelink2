@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { findUserByEmail } from "../../storage.js";
-import "../../styles/forms.css";
+import "../../Styles/forms.css";
 
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");

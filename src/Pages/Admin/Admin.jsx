@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getRoutes, saveRoutes } from "../../data.js";
 import { getAllBookings } from "../../storage.js";
-import "../../styles/forms.css";
+import "../../Styles/forms.css";
 
 export default function Admin() {
   const [routes, setRoutes] = useState([]);

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/card.css";
+import "../../Styles/card.css";
 import { saveBooking, getBookingsByUser } from "../../storage.js";
 
 export default function BookingModal({ route, user, onClose, onBooked }) {

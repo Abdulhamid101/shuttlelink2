@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getRoutes } from "../../data.js";
 import BookingModal from "../../Component/BookingModal/BookingModal.jsx";
-import "../../styles/card.css";
+import "../../Styles/card.css";
 import { getBookingsByUser } from "../../storage.js";
 
 export default function RoutesPage({ user }) {

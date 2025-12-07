@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getBookingsByUser } from "../../storage.js";
-import "../../styles/card.css";
+import "../../Styles/card.css";
 
 export default function MyBookings({ user }) {
   const [bookings, setBookings] = useState([]);

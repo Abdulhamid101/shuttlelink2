@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../styles/forms.css";
+import "../../Styles/forms.css";
 import "./topbar.css";
 
 export default function Topbar({ user, onLogout }) {
